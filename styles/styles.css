@@ -1,6 +1,8 @@
 body  {
     font-family: 'Karla', sans-serif;
     text-align: center;
+    margin: 20%;
+    margin-top: 0;
 }
 
 img {
@@ -10,4 +12,8 @@ img {
     margin-right: auto;
     width: 20%;
     height: 20%;
+  }
+
+  section {
+      text-align: left;
   }
