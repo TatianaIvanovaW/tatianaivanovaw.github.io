@@ -70,3 +70,13 @@ footer {
  h3 {
      cursor: help;
  }
+
+ #efam {
+    display: none;
+ }
+ #efex {
+    display: none;
+ }
+ #efsk {
+    display: none;
+ }
