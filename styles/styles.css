@@ -6,12 +6,13 @@ body  {
     
 }
 
-main {
+.mainpart {
     border: 1px solid black;
     box-shadow: 0 0 10px rgba(0,0,0,0.5); 
     margin: 10px;
     text-align: center;
     padding: 0 20px 20px 20px;
+    margin-top: 30px;
    
 }
 
@@ -24,11 +25,11 @@ img {
     height: 20%;
   }
 
-  section {
+section {
       text-align: left;
   }
 
-  .title {
+.title {
     font-family: 'Montserrat', sans-serif;
     border-bottom: 1px solid black;
     border-bottom-left-radius: 20px; 
@@ -36,25 +37,24 @@ img {
     padding-bottom: 7px;
   }
 
-  p {
+p {
       padding-left: 25px;
   }
 
-  footer {
+footer {
       background-color: lightgrey;
       border: 1px solid black;
       box-shadow: 0 0 5px rgba(0,0,0,0.5);
       margin: 10px;
-      text-align: left; 
-
-      
+      text-align: left;     
   }
 
-  .name {
-    margin: 10px;
-    margin-top: 5px;
-    text-align: left;
-      position: fixed;
-      top: 5px;
-      left:1%;
+.name {
+     margin-left: 5px;
+     /* margin-top: 5px; */
+     text-align: left;
+     position: fixed;
+     top: 5px;
+     left:1%;
   }
+
