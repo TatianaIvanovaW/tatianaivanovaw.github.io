@@ -63,6 +63,7 @@ footer {
      float: left;
      width: 200px;
    } 
+
  input {
      background: white;
      border: none;
@@ -74,5 +75,34 @@ footer {
 
  .paragraphs {
     display: none;
+    animation-duration: 0.3s;
+    animation-timing-function: ease-in-out;
+    animation-name: slidedown;
+    /* animation-direction: alternate-reverse; */
  }
+
+  @keyframes slidedown {
+    0% {
+        color: grey;
+        opacity: 0;
+        transform: translateY(10%);
+    } 
+
+    20% {
+        opacity: 0.2;
+    }
+
+    50% {
+        opacity: 0,4;
+        color: darkslategrey;
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0%);
+    }
+    }
+
+   
+  
 
