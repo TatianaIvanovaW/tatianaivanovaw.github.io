@@ -60,3 +60,14 @@ function checkButton () {
   }
   );
 }
+
+ let imgButton = document.getElementById("imgB");
+upButton.addEventListener('mouseover', goUp);
+function goUp () {
+  imgButton.src = "img/upButton2.png";
+  // return console.log('ok');
+};
+upButton.addEventListener('mouseout', stayDown);
+function stayDown () {
+  imgButton.src = "img/upButton.png";
+}

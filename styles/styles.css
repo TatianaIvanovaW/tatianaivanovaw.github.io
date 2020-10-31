@@ -2,9 +2,6 @@ body  {
     font-family: 'Montserrat', sans-serif;
     margin: 20%;
     margin-top:0;
-    
-    /* padding: 0 20px 20px 20px; */
-    
 }
 
 header {
@@ -17,7 +14,6 @@ header {
 }
 
 .name {
-     /* margin-top: -8%;  */
      margin-left:2%;
      text-align: center;
      position: fixed; 
@@ -25,35 +21,25 @@ header {
      left:1%;
      float: left;
      width: 200px;
-   } 
-
+} 
 
 .avatar {
     border-radius: 50%;
-    /* display: block;
-    margin-left: auto;
-    margin-right: auto; */
     width: 80%;
     height: 80%;
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
     max-width: 100%;
-  height: auto;
-  }
-
-.mainpart {
-    /* border: 1px solid black; */
-    /* box-shadow: 0 0 10px rgba(0,0,0,0.5);  */
-    margin: 0px;
-    padding: 10px 0px 20px 20px;
-    /* margin-top: 30px; */
-   
+    height: auto;
 }
 
-
+.mainpart {
+    margin: 0px;
+    padding: 10px 0px 20px 20px;
+}
 
 section {
       text-align: left;
-  }
+}
 
 .title {
     font-family: 'Raleway', sans-serif;
@@ -62,27 +48,24 @@ section {
     padding-left: 15px;
     padding-bottom: 7px;
     font-size: larger;
-  }
+}
 
 p {
-      padding-left: 25px;
-  }
+    padding-left: 25px;
+}
 
+h3 {
+    cursor: help;
+}
 
-
- h3 {
-     cursor: help;
- }
-
- .paragraphs {
+.paragraphs {
     display: none;
     animation-duration: 0.3s;
     animation-timing-function: ease-in-out;
     animation-name: fadeIn;
-    /* animation-direction: alternate-reverse; */
- }
+}
 
-  @keyframes fadeIn {
+@keyframes fadeIn {
     0% {
         color: grey;
         opacity: 0;
@@ -105,44 +88,28 @@ p {
     }
 
 footer {
-      /* background-color: lightgrey; */
-      /* border: 1px solid black; */
-      /* box-shadow: 0 0 5px rgba(0,0,0,0.5); */
-      margin-top: 0px;
       text-align: left;   
-      /* margin: 10px; */
       position: fixed;
-      bottom: 0px;
-      /* padding: 10px 0px 20px 20px; */
+      bottom:0;
       padding-left: 20px;
       background-color: white;
       width: 70%;
-    }
+}
 
 img {
-        width: 60px;
-        height: 60px;
-        margin-top: 6px;
-        max-width: 100%;
-        
-    }
+      width: 60px;
+      height: 60px;
+      margin-top: 6px;
+      max-width: 100%;
+}
 
-    button {
-        background-color:white;
-        border: none;
-        position: fixed;
-        bottom: 1%;
-        right: 0;
-        outline: none;
-    }
-
-    .upButton {
-        width: 60px;
-        height: 60px;
-        margin-top: 0;
-        max-width: auto;
-        border-radius: 50%;
-
+button {
+      background-color:white;
+      border: none;
+      position: fixed;
+      bottom: 1%;
+      right: 0;
+      outline: none;
     }
 
 @media screen and (max-width: 800px) {
@@ -160,78 +127,33 @@ img {
         position: static;
         text-align: center;
         
-}
+    }
+    
     .name {
-    /* margin-top: -8%;  */
-    margin-left: 20%;
-    margin-right: 20%;
-    text-align: center;
-    position: static;
-    float: center;
-    width: auto;
-    margin-bottom: 20px;
-    font-size: small;
+        margin-left: 20%;
+        margin-right: 20%;
+        text-align: center;
+        position: static;
+        float: center;
+        width: auto;
+        margin-bottom: 20px;
+        font-size: small;
 
-  } 
-
-  .avatar {
-    border-radius: 50%;
-    width: 40%;
-    height: 40%;
-    box-shadow: 0 0 10px rgba(0,0,0,0.5);
-    max-width: 100%;
-  height: auto;
-  text-align: center;
-  margin-bottom: 0px;
-  margin-top: 0px;
-  }
-
-  .mainpart {
-    /* border: 1px solid black; */
-    /* box-shadow: 0 0 10px rgba(0,0,0,0.5);  */
-    margin-top: 20px;
-    padding: 20px 20px 0px 20px;
-    /* margin-top: 30px; */
-   
-}
-
-
-footer {
-    margin-top: 0px;
-    text-align: left;   
-    position: fixed;
-    bottom: 0;
-    padding-left: 20px;
-    background-color: white;
-    width: 70%;
-}
-.paragraphs {
-    display: none;
-    animation-duration: 0.3s;
-    animation-timing-function: ease-in-out;
-    animation-name: fadeIn;
-    /* animation-direction: alternate-reverse; */
- }
-
-  @keyframes fadeIn {
-    0% {
-        color: grey;
-        opacity: 0;
-        transform: translateY(10%);
     } 
 
-    20% {
-        opacity: 0.2;
+    .avatar {
+        border-radius: 50%;
+        width: 40%;
+        height: 40%;
+        max-width: 100%;
+        height: auto;
+        text-align: center;
+        margin-bottom: 0px;
+        margin-top: 0px;
     }
 
-    50% {
-        opacity: 0,4;
-        color: darkslategrey;
+    .mainpart {
+        margin-top: 20px;
+        padding: 20px 20px 80px 20px;
     }
-
-    100% {
-        opacity: 1;
-        transform: translateY(0%);
-    }
-    }
-        }
+}
