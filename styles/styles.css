@@ -23,6 +23,13 @@ header {
      width: 200px;
 } 
 
+.iconsInfo {
+    position: fixed;
+    bottom: 0;
+    right: 50%;
+    text-align: center;
+}
+
 .avatar {
     border-radius: 50%;
     width: 80%;
@@ -155,5 +162,13 @@ button {
     .mainpart {
         margin-top: 20px;
         padding: 20px 20px 80px 20px;
+    }
+
+    .iconsInfo {
+        font-size: 4%;
+        position: fixed;
+        bottom:0.5%;
+        left: 2%;
+        text-align: left;
     }
 }
