@@ -6,7 +6,7 @@ aboutMe.addEventListener('click', openSection);
 expirience.addEventListener('click', openSection);
 skills.addEventListener('click', openSection);
 
-function openSection (checkId, text) {
+function openSection (checkId) {
     
   aboutMe.addEventListener('click', checkIdAgain);
   expirience.addEventListener('click', checkIdAgain);
@@ -45,7 +45,18 @@ function openSection (checkId, text) {
             document.getElementById("efsk").style.display = "none";
         }
       } 
-   console.log(text);
    
 }
 
+const upButton = document.querySelector("button");
+upButton.addEventListener('click', checkButton); 
+
+function checkButton () {
+  window.scrollTo(
+   {
+  top: 0,
+  left: 0,
+  behavior: "smooth"
+  }
+  );
+}

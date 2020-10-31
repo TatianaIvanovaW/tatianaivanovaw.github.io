@@ -1,5 +1,5 @@
 body  {
-    font-family: 'Karla', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     margin: 20%;
     margin-top:0;
     
@@ -56,11 +56,12 @@ section {
   }
 
 .title {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Raleway', sans-serif;
     border-bottom: 1px solid black;
     border-bottom-left-radius: 20px; 
     padding-left: 15px;
     padding-bottom: 7px;
+    font-size: larger;
   }
 
 p {
@@ -115,7 +116,7 @@ footer {
       /* padding: 10px 0px 20px 20px; */
       padding-left: 20px;
       background-color: white;
-      width: 100%;
+      width: 70%;
     }
 
 img {
@@ -123,9 +124,26 @@ img {
         height: 60px;
         margin-top: 6px;
         max-width: 100%;
-        height: auto;
+        
     }
 
+    button {
+        background-color:white;
+        border: none;
+        position: fixed;
+        bottom: 1%;
+        right: 0;
+        outline: none;
+    }
+
+    .upButton {
+        width: 60px;
+        height: 60px;
+        margin-top: 0;
+        max-width: auto;
+        border-radius: 50%;
+
+    }
 
 @media screen and (max-width: 800px) {
        
@@ -185,7 +203,35 @@ footer {
     bottom: 0;
     padding-left: 20px;
     background-color: white;
-    width: 100%;
+    width: 70%;
 }
-            
+.paragraphs {
+    display: none;
+    animation-duration: 0.3s;
+    animation-timing-function: ease-in-out;
+    animation-name: fadeIn;
+    /* animation-direction: alternate-reverse; */
+ }
+
+  @keyframes fadeIn {
+    0% {
+        color: grey;
+        opacity: 0;
+        transform: translateY(10%);
+    } 
+
+    20% {
+        opacity: 0.2;
+    }
+
+    50% {
+        opacity: 0,4;
+        color: darkslategrey;
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0%);
+    }
+    }
         }
