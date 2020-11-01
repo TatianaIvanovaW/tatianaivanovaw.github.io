@@ -2,7 +2,8 @@ body  {
     font-family: 'Montserrat', sans-serif;
     margin: 20%;
     margin-top:0;
-}
+    font-weight: 900;
+} 
 
 header {
         font-family: 'Amatic SC', cursive;
