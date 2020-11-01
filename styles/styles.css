@@ -180,4 +180,8 @@ button {
 
     li {
 list-style-type: none;    }
+
+footer {
+    width: 80%;
+}
 }
