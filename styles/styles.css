@@ -150,8 +150,8 @@ button {
 
     .avatar {
         border-radius: 50%;
-        width: 40%;
-        height: 40%;
+        width: 45%;
+        height: 45%;
         max-width: 100%;
         height: auto;
         text-align: center;
@@ -165,10 +165,18 @@ button {
     }
 
     .iconsInfo {
-        font-size: 4%;
+        font-size: 4.5px;
         position: fixed;
-        bottom:0.5%;
+        bottom: 0;
         left: 2%;
         text-align: left;
     }
+    
+    .paragraphs {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    li {
+list-style-type: none;    }
 }

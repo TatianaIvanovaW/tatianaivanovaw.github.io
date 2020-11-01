@@ -1,5 +1,5 @@
 const aboutMe = document.getElementById('aboutme');
-const expirience = document.getElementById('expirience');
+const expirience = document.getElementById('experience');
 const skills = document.getElementById('skills');
 
 aboutMe.addEventListener('click', openSection);
@@ -32,7 +32,7 @@ function openSection (checkId) {
     }else {
         document.getElementById("efam").style.display = "none";
     }
-      } else if (checkId == "expirience") {
+      } else if (checkId == "experience") {
         if (display1 === "none"){
         document.getElementById("efex").style.display = "block";
     }else {
