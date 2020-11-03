@@ -128,6 +128,16 @@ ul {
     line-height: 1.7;
 }
 
+@media screen and (max-width: 400px){
+
+img {
+    width: 40px;
+    height: 40px;
+    margin-top: 6px;
+    max-width: 100%;
+}
+}
+
 @media screen and (max-width: 800px) {
        
     body {
@@ -200,3 +210,4 @@ button  {
 }
 
 }
+
