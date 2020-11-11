@@ -29,24 +29,25 @@ function openSection (checkId) {
       if (checkId == "aboutme") {
           if (display === "none"){
         document.getElementById("efam").style.display = "block";
-    }else {
-        document.getElementById("efam").style.display = "none";
     }
-      } else if (checkId == "experience") {
+    else {
+        document.getElementById("efam").style.display = "none";
+      }} else if (checkId === "experience") {
         if (display1 === "none"){
         document.getElementById("efex").style.display = "block";
-    }else {
+    }
+    else {
         document.getElementById("efex").style.display = "none";
     }
       } else if (checkId == "skills") {
         if (display2 === "none"){
             document.getElementById("efsk").style.display = "block";
-        }else {
+        }
+        else {
             document.getElementById("efsk").style.display = "none";
         }
       } 
-   
-}
+    }
 
 const upButton = document.querySelector("button");
 upButton.addEventListener('click', checkButton); 
